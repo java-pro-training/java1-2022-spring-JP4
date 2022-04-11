@@ -7,5 +7,6 @@ public class RandomNumberGenerator {
         Random randomGenerator = new Random();
         int randomNumber = randomGenerator.nextInt(101);
         System.out.println(randomNumber);
+
     }
 }
