@@ -7,7 +7,6 @@ public class HomeWorkLesson {
         int side3 = 14;
         int side4 = 25;
         int result = side1;
-        int perimetr = 15;
         result = result + side2;
         result += side3;
         result += side4;
