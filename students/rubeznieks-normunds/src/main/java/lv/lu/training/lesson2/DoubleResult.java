@@ -1,7 +1,6 @@
 package lv.lu.training.lesson2;
 
-public class HelloWorld {
-
+public class DoubleResult {
     public static void main(String[] args) {
         int x = 10;
         int y = 4;
@@ -9,3 +8,4 @@ public class HelloWorld {
         System.out.println(result);
     }
 }
+

@@ -1,11 +1,10 @@
 package lv.lu.training.lesson2;
 
-public class HelloWorld {
-
+public class TriangleAreaCalculator {
     public static void main(String[] args) {
-        int x = 10;
-        int y = 4;
-        double result = x / (double) y;
+        int base=10;
+        int height=20;
+        int result=(base*height)/2;
         System.out.println(result);
     }
 }
