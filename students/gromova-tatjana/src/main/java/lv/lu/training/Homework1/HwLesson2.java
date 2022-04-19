@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2;
+package lv.lu.training.Homework1;
 
 public class HwLesson2 {
     public static void main(String[] args) {
