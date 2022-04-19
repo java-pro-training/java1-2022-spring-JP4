@@ -1,6 +1,6 @@
-package lv.lu.training.Homework1;
+package lv.lu.training.homework2;
 
-public class HwLesson2 {
+public class HomeWork1 {
     public static void main(String[] args) {
         String part1 = "Hello";
         String part2 = "World";
