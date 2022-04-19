@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
 
+//IESK
 public class TringleAreaCalculator {
     public static void main(String[] args) {
         int base = 10;
