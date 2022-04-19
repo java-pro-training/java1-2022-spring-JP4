@@ -1,5 +1,6 @@
 package lv.lu.training.homeWork2;
 
+//IESK
 public class MajasDarbs3 {
     public static void main(String[] args) {
         int base = 10;

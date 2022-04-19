@@ -2,6 +2,7 @@ package lv.lu.training.lesson2.Hwork;
 
 import java.util.Random;
 
+//IESK
 public class RandomNumberGeneratorTest {
     public static void main(String[] args) {
 
