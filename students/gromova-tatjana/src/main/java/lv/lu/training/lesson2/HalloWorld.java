@@ -1,9 +1,8 @@
 package lv.lu.training.lesson2;
 
-//IESK
-public class HelloWorld {
+public class HalloWorld {
 
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+        System.out.println("Hallo, World!");
     }
 }

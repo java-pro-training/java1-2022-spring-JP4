@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
 
+//IESK
 public class HomeWork2pt2 {
     public static void main(String[] args) {
         // Vienmēr deklarējiet tipu un tad nosaukumu

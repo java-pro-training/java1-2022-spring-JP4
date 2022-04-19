@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
 
+//IESK
 public class HomeWork2pt1 {
     public static void main(String[] args) {
         String part1 = "Hello";
