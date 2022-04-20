@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
 
+//IESK
 public class HomeWorkPerimeter2 {
 //    Vienmer deklarejiet tipu un tad nosaukumu
 

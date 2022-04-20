@@ -1,5 +1,7 @@
 package lv.lu.training.lesson2;
 
+//IESK
+// int rand = (int)(Math.random() * range) + min;  - šādi izmanto robežas definēšanu
 public class HomeWorkRandomNumber2 {
     public static void main(String[] args) {
         int min = 0;

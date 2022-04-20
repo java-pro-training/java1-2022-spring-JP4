@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
 
+//IESK
 public class HomeWork2 {
     public static void main(String[] args) {
         int side1 = 10;
@@ -10,7 +11,7 @@ public class HomeWork2 {
         result = result + side2;
         result += side3;
         result += side4;
-        System.out.println(result);
+        System.out.println("perimetrs = " + result);
 
     }
 }

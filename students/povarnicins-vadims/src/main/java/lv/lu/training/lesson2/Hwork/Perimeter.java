@@ -1,7 +1,10 @@
 package lv.lu.training.lesson2.Hwork;
 
+//IESK
+//Pielaboju klases faila tipu.
+//Mapes (package) nosaukumam ir jābūt ar mazajiem burtiem
 public class Perimeter {
-    public static void main(String[] args) {
+  public static void main(String[] args) {
 
         int side1 = 10;
         int side2 = 15;

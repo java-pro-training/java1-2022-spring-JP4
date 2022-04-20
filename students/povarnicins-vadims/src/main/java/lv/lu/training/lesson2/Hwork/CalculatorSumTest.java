@@ -1,5 +1,7 @@
 package lv.lu.training.lesson2.Hwork;
 
+//IESK
+//Mapes (package) nosaukumam ir jābūt ar mazajiem burtiem
 public class CalculatorSumTest {
     public static void main(String[] args) {
 
