@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2.Hwork;
 
+//IESK
 public class StringHelloWorld {
     public static void main(String[] args) {
 
