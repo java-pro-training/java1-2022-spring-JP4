@@ -1,5 +1,7 @@
 package lv.lu.training.lesson2;
 
+//IESK
+//Lietot koda formatēšanu: Ctrl+Alt+L
 public class HomeWork1 {
     public static void main(String[] args) {
         String part1 = "Hello";
