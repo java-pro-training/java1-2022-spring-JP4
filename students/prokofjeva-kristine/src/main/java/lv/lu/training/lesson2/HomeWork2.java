@@ -10,7 +10,7 @@ public class HomeWork2 {
         result = result + side2;
         result += side3;
         result += side4;
-        System.out.println(result);
+        System.out.println("perimetrs = " + result);
 
     }
 }
