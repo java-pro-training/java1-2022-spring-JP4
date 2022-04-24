@@ -1,7 +1,7 @@
 package lv.lu.training.lesson3;
 
 import java.util.Random;
-
+//IESK
 public class RandomNumberGenerator {
     public static void main(String[] args) {
         Random randomNumberGenertor = new Random();

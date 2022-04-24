@@ -1,5 +1,6 @@
 package lv.lu.training.lesson3;
 
+//IESK
 public class CatOwner {
     public static void main(String[] args) {
         Cat myCat = new Cat("orange", "Fergio", 6.6f);
