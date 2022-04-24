@@ -2,6 +2,7 @@ package lv.lu.training.hw4;
 
 import java.util.Scanner;
 
+//IESK
 public class GreatestOfThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

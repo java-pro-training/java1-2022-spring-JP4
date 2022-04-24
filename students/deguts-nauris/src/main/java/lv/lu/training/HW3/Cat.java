@@ -1,5 +1,5 @@
 package lv.lu.training.HW3;
-
+//IESK
 public class Cat {
     private String color;
     private String name;
@@ -7,7 +7,7 @@ public class Cat {
     private int age;
     private int weight;
 
-    public Cat(String species, int age) {
+    public Cat(String species, int age) { //šis konstukstors nav nepieciešams, var nelikt iekšā
         this.species = species;
         this.age = age;
     }

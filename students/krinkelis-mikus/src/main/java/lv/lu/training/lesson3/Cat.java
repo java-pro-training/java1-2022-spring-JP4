@@ -1,5 +1,6 @@
 package lv.lu.training.lesson3;
-
+//IESK
+//Lietot koda formatēšanu: Ctrl+Alt+L
 public class Cat {
     private String color;
     private String name;

@@ -1,5 +1,5 @@
 package lv.lu.training.lesson3;
-
+//IESK
 public class Cat {
     private String color;
     private String name;
@@ -7,7 +7,7 @@ public class Cat {
     private int age;
     private int weight;
 
-    public Cat(String color, String name, String species, int age, int weight) {
+    public Cat(String color, String name, String species, int age, int weight) { //Uzdevumā bija prasīts konstruktors ar trim parametriem
         this.color = color;
         this.name = name;
         this.species = species;
