@@ -17,11 +17,11 @@ public class GreatestOfThree {
         int thirdNumber = scanner.nextInt();
 
         if (firstNumber >= secondNumber && firstNumber >= thirdNumber) {
-            System.out.println(firstNumber);
+            System.out.println("Greatest Number " + firstNumber);
         } else if (firstNumber <= secondNumber && secondNumber >= thirdNumber) {
-            System.out.println(secondNumber);
+            System.out.println("Greatest Number " + secondNumber);
         } else {
-            System.out.println(thirdNumber);
+            System.out.println("Greatest Number " + thirdNumber);
         }
 
     }
