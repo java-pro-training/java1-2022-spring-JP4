@@ -1,5 +1,6 @@
 package lv.lu.training.lesson3;
-
+//LABOT
+//trūkst getSpecies metode
 public class Cat {
     private String color;
     private String name;

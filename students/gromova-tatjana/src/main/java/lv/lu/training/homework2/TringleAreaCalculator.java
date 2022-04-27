@@ -1,5 +1,5 @@
 package lv.lu.training.homework2;
-
+//IESK
 public class TringleAreaCalculator {
 
         public static void main(String[] args) {

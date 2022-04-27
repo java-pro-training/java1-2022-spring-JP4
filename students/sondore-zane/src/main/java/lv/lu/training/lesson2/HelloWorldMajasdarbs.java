@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
-
+//IESK
+//Lietojam koda formatēšanu: CTRL+ALT+L
 public class HelloWorldMajasdarbs {
     public static void main(String[] args) {
         String part1 = "Hello";
