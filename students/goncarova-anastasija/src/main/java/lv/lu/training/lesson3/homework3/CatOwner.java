@@ -1,5 +1,5 @@
 package lv.lu.training.lesson3.homework3;
-
+//IESK
 public class CatOwner {
     public static void main(String[] args){
         Cat myCat = new Cat("black", "Tom", 5);

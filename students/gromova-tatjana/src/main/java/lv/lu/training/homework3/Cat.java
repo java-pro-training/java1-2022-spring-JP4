@@ -1,5 +1,5 @@
 package lv.lu.training.homework3;
-
+//IESK
 public class Cat {
     private String color;
     private String name;

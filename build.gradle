@@ -8,4 +8,4 @@ compileTestJava.options.encoding = "UTF-8"
 
 group = 'lv.lu.training'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '16'
+sourceCompatibility = '1.8'
