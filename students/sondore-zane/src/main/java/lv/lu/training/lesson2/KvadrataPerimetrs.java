@@ -1,5 +1,6 @@
 package lv.lu.training.lesson2;
-
+//IESK
+//labā prakse lietot klases nosaukumu angliski
 public class KvadrataPerimetrs {
     public static void main(String[] args) {
 

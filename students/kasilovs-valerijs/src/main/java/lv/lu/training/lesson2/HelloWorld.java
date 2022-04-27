@@ -20,15 +20,15 @@ public class HelloWorld {
         System.out.println("perimetrs" + result);
     }
 
-    public class TriangleAreaCalculator {   //šim uzdevumam izveidot atsevišķu klasi
-        public static void main(String[] args) {
-            int base = 10;                  //nodefinēts mainīgais, bet aprēķinos neizmanto
-            int height = 20;                 //nodefinēts mainīgais, bet aprēķinos neizmanto
-            String result = "(10 * 20)/2";
-            System.out.println(result);
-
-
-        }
-
-    }
+//    public class TriangleAreaCalculator {   //šim uzdevumam izveidot atsevišķu klasi
+//        public static void main(String[] args) {
+//            int base = 10;                  //nodefinēts mainīgais, bet aprēķinos neizmanto
+//            int height = 20;                 //nodefinēts mainīgais, bet aprēķinos neizmanto
+//            String result = "(10 * 20)/2";
+//            System.out.println(result);
+//
+//
+//        }
+//
+//    }
 }

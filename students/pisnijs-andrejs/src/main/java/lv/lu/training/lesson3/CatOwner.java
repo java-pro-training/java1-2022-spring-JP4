@@ -1,5 +1,5 @@
 package lv.lu.training.lesson3;
-
+//LABOT
 public class CatOwner {
     public static void main(String[] args) {
 
@@ -9,7 +9,7 @@ public class CatOwner {
         System.out.println("species - " + myCat.getSpecies());
         System.out.println("age - " + myCat.getAge());
         System.out.println("weight - " + myCat.getWeight());
-
+        //trūkst uzdevuma beigas, jāieliek trūkstošās vērtības ar seteriem
 
     }
 }
