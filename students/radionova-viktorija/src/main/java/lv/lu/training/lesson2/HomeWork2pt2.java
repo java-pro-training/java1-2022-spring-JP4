@@ -4,13 +4,13 @@ public class HomeWork2pt2 {
     public static void main(String[] args) {
         // Vienmēr deklarējiet tipu un tad nosaukumu
 
-        int side1 = 5;
+        int side1 = 10;
 
-        int side2 = 4;
+        int side2 = 15;
 
-        int side3 = 6;
+        int side3 = 14;
 
-        int side4 = 14;
+        int side4 = 25;
 
         int result = side1; // deklarēšana un piešķiršana
         result = result + side2;
