@@ -1,4 +1,4 @@
-package lv.lu.training.lesson5;
+package lv.lu.training.lesson5.HW1;
 
 import java.time.LocalDate;
 
