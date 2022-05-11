@@ -1,14 +1,17 @@
-package lv.lu.training.lesson5;
+package lv.lu.training.HomeWork5;
 
 import java.time.LocalDate;
 
 public class CardUser {
     public static void main(String[] args) {
-        BankCard myCard = new BankCard("Banka Citadele", "Visa", "Aleksandrs Andrejevs", "2304931811", LocalDate.of(2025, 12, 31), "777");
+        BankCard myCard = new BankCard("Citadele", "VISA", "Kristine Prokofjeva", "34567", LocalDate.of(2024, 12, 10), "990", 100);
         System.out.println("Mana karte: " + myCard);
-        myCard.addFunds(100d);
+        myCard.addFounds(100d);
         System.out.println("Mana karte: " + myCard);
-        myCard.withdraw(20d);
+        myCard.withdrawal(20d);
         System.out.println("Mana karte: " + myCard);
+
+
     }
 }
+
