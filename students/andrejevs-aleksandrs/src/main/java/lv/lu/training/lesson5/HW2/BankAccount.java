@@ -40,9 +40,17 @@ public class BankAccount {
                 this.balance += value - this.usedCredit;
                 this.usedCredit = 0;
             }
-        }else{
+        } else {
             System.out.println("Nepareizs PIN");
         }
+    }
+
+    public boolean withDrawValue(double value) {
+        double availableLimit = balance + (creditLimit - usedCredit);
+        boolean isEnoughMoney = availableLimit - value >= 0;
+        return isEnoughMoney;
+
+
     }
 
     @Override
@@ -56,12 +64,5 @@ public class BankAccount {
                 '}';
     }
 
-    public boolean withDrawValue(double value) {
-        double availableLimit = balance + (creditLimit - usedCredit);
-        boolean isEnoughMoney = availableLimit - value >= 0;
-        return isEnoughMoney;
-
-
-    }
 
 }
