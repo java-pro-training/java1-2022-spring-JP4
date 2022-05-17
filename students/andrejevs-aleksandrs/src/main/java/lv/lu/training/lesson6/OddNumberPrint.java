@@ -9,8 +9,7 @@ public class OddNumberPrint {
         int firstNumber = scanner.nextInt();
         System.out.println("Please enter the second number");
         int secondNumber = scanner.nextInt();
-        OddNumberLookup oddNumberLookup = new OddNumberLookup(firstNumber,secondNumber);
-
+        OddNumberLookup oddNumberLookup = new OddNumberLookup(firstNumber, secondNumber);
 
 
     }

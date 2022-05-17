@@ -7,15 +7,15 @@ public class RollDice {
     public static void main(String[] args) {
         int sumOfWins = 0;
         rollDice();
-        while (rollDice()!=12){
-            if((rollDice()==7)||(rollDice()==11)){
+        while (rollDice() != 12) {
+            if ((rollDice() == 7) || (rollDice() == 11)) {
                 sumOfWins++;
-                System.out.println("Congratulations, you are the winner! You have won a total of "+sumOfWins+" times");
+                System.out.println("Congratulations, you are the winner! You have won a total of " + sumOfWins + " times");
                 rollDice();
-            }else if((rollDice()==2)||(rollDice()==3)||(rollDice()==6)){
-                System.out.println("Unfortunately, you have lost. You have won a total of "+sumOfWins+" times");
+            } else if ((rollDice() == 2) || (rollDice() == 3) || (rollDice() == 6)) {
+                System.out.println("Unfortunately, you have lost. You have won a total of " + sumOfWins + " times");
                 rollDice();
-            }else{
+            } else {
                 rollDice();
             }
         }
