@@ -1,8 +1,7 @@
 package lv.lu.training.HomeWork4;
 
 import java.util.Random;
-import java.util.Scanner;
-
+//IESK
 public class NewRollDice {
     public static void main(String[] args) {
         Random random = new Random();
