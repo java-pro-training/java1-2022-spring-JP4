@@ -1,7 +1,9 @@
 package lv.lu.training.HW4;
 
 import java.util.Scanner;
-
+//LABOT
+//pārbaudīt zem if nosacījumiem, jums jāizmanto else if būtu, kā arī AND rakstās ar divim && nevis vienu &
+//ievadiet pārbaudēs 3,3,2, nebūs izvades
 public class GreatestOfThree {
     public static void main(String[] args) {
 

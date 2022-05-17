@@ -2,9 +2,7 @@ package lv.lu.training.lesson3.homework3;
 
 import java.util.Random;
 
-//LABOT
-//kods nedarbojas, aizkomentēju, lai citas klases darbojas
-//izlabots
+//IESK
 public class RandomNumberGenerator {
     public static void main(String[] args) {
 

@@ -1,5 +1,5 @@
 package lv.lu.training.lesson2;
-
+//IESK
 public class TriangleAreaCalculator {
     public static void main(String[] args) {
         int base = 10;
