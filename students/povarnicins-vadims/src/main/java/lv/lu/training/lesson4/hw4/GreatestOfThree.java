@@ -1,7 +1,8 @@
 package lv.lu.training.lesson4.hw4;
 
 import java.util.Scanner;
-
+//LABOT
+//Pārbaudiet loģiku, ja ievada 3,3,2 skaitļus
 public class GreatestOfThree {
     public static void main(String[] args) {
 
