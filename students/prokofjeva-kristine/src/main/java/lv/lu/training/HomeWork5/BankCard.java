@@ -1,4 +1,4 @@
-package lv.lu.training.lesson5;
+package lv.lu.training.HomeWork5;
 
 import java.time.LocalDate;
 
@@ -11,23 +11,23 @@ public class BankCard {
     private String cvv;
     private double balance;
 
-    public BankCard(String bankName, String origin, String holderName, String number, LocalDate expiryDate, String cvv) {
+    public BankCard(String bankName, String origin, String holderName, String number, LocalDate expiryDate, String cvv, double balance) {
         this.bankName = bankName;
         this.origin = origin;
         this.holderName = holderName;
         this.number = number;
         this.expiryDate = expiryDate;
         this.cvv = cvv;
-        this.balance = 0;
+        this.balance = balance;
     }
 
-    public void withdraw(double value) {
+    public void withdrawal(double value){
         this.balance -= value;
 
     }
 
-    public void addFunds(double value) {
-        this.balance += value;
+    public void addFounds(double value){
+    this.balance += value;
     }
 
     @Override
