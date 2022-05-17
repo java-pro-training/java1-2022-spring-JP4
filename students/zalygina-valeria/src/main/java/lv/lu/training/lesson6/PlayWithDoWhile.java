@@ -10,9 +10,9 @@ public class PlayWithDoWhile {
     }
     private static void otherDoWhileExample() {
         int sum = 0;
-        int number = 0;
 
         Scanner scanner = new Scanner(System.in);
+        int number = 0;
         do {
             sum += number;
             System.out.println("Please, enter some number");

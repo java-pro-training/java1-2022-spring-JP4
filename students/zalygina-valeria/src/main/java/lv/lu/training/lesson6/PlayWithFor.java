@@ -26,8 +26,6 @@ public class PlayWithFor {
         System.out.println("Final result + sum");
 }
     private static void anotherForExample() {
-        for (String x = ""; x.length() <= 5; x = x + "*") {
-            System.out.println(x);
-        }
+        for (String x = ""; x.length() <= 5; x = x + "*") System.out.println(x);
     }
 }

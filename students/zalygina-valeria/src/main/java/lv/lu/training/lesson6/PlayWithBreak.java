@@ -9,6 +9,5 @@ public class PlayWithBreak {
             }
             System.out.println(i);
         }
-
     }
 }
