@@ -1,5 +1,5 @@
 package lv.lu.training.HW3;
-
+//IESK
 public class HWCat {
     private String color;
     private String name;

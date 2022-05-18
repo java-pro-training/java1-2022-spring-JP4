@@ -1,7 +1,7 @@
 package lv.lu.training.lesson4.hw4;
 
 import java.util.Random;
-
+//IESK
 public class RollDice {
     public static void main(String[] args) {
 

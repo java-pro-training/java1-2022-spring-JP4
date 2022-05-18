@@ -1,7 +1,7 @@
 package lv.lu.training.HW3;
 
 import lv.lu.training.lesson3.Cat;
-
+//IESK
 public class HWCatOwner {
         public static void main(String[] args) {
             HWCat myHWCat = new HWCat("Tom", "black", 5);

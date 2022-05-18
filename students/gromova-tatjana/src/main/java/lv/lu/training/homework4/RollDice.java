@@ -1,7 +1,8 @@
 package lv.lu.training.homework4;
 
 import java.util.Random;
-
+//LABOT
+//pārbaudiet nextInt metodi. Ja izmanto java8, tad tur eksistē nextInt ar vienu parametru tikai
 public class RollDice {
     public static void main(String[] args) {
         Random rollDice = new Random();

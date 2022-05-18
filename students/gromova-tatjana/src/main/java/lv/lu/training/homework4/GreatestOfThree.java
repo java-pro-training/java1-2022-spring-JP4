@@ -1,9 +1,10 @@
 package lv.lu.training.homework4;
 
-// Man nesanca, godigi es nesaprotu(((
 
 import java.util.Scanner;
 
+//IESK
+//Kas tieši nesanāca? Man izskatās, ka viss ir ok. Droši rakstiet telegram, ja rodas jautājums
 public class GreatestOfThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
