@@ -2,7 +2,7 @@ package lv.lu.training.lesson4;
 
 import java.util.Random;
 
-
+//IESK
 public class RollTheDice {
 
     public static void main(String[] args) {
