@@ -32,6 +32,5 @@ public class PlayWithWhile {
         }
         System.out.println("Sum = " + sum);
         scanner.close();
-
     }
 }
