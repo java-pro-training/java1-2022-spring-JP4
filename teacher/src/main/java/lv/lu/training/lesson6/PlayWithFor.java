@@ -1,4 +1,4 @@
-package lv.lu.training.lessson6;
+package lv.lu.training.lesson6;
 
 public class PlayWithFor {
 
