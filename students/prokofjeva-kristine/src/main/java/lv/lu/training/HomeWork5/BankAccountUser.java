@@ -1,7 +1,5 @@
 package lv.lu.training.HomeWork5;
 
-import javax.swing.*;
-import java.util.Random;
 import java.util.Scanner;
 
 public class BankAccountUser {

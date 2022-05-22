@@ -1,8 +1,6 @@
 package lv.lu.training.lesson3;
 
-//IZLABOTS
-
-//LABOT
+//IESK
 public class Cat1Owner {
     public static void main(String[] args) {
         Cat1 myCat1 = new Cat1("black", "Tom", 5);
@@ -14,8 +12,6 @@ public class Cat1Owner {
         System.out.println("My cat's weight - " + myCat1.getWeight());
         System.out.println("My cat's age - " + myCat1.setAge());
         System.out.println("My cat's species - " + myCat1.setSpecies());
-
-        //trūkst uzdevuma beigas, jādefinē trūkstošās vērtības ar seteriem
 
 
     }
