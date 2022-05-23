@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2;
+package lv.lu.training.lesson2.lesson2;
 
 //IESK
 public class WorkTask2 {
