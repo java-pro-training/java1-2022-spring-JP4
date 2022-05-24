@@ -17,8 +17,6 @@ public class RollDice2 {
             int dice1 = diceRandom.nextInt(6) + 1;
             int dice2 = diceRandom.nextInt(6) + 1;
             diceSum = dice1 + dice2;
-            //  System.out.println("1st dice " + dice1);
-            // System.out.println("2nd dice " + dice2 + ";");
 
             if (diceSum == 7 || diceSum == 11) {
                 sumOfWins++;
