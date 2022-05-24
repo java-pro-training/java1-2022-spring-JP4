@@ -1,4 +1,4 @@
-package lv.lu.training.lesson5;
+package lv.lu.training.lesson6;
 
 import java.util.Random;
 
