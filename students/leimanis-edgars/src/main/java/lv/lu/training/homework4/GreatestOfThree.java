@@ -1,7 +1,8 @@
 package lv.lu.training.homework4;
 
 import java.util.Scanner;
-
+//LABOT
+//Pārbaudīt loģiku, ja ievada 3,3,2 lielākais būs 2 un pārbaudīt, kā pieraksta loģisko 'AND' operatoru nevis bitwise 'AND'
 public class GreatestOfThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

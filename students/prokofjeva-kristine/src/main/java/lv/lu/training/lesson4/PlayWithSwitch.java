@@ -1,8 +1,5 @@
 package lv.lu.training.lesson4;
 
-import jdk.swing.interop.SwingInterOpUtils;
-
-import javax.swing.plaf.synth.SynthOptionPaneUI;
 import java.util.Scanner;
 
 public class PlayWithSwitch {

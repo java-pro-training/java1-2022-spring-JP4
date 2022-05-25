@@ -1,7 +1,8 @@
 package lv.lu.training.HW4;
 
 import java.util.Scanner;
-
+//LABOT
+//kļūda loģikā, ievadie 3,3,2 un būs nekorekts rezultāts
 public class GreatestOfThree {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

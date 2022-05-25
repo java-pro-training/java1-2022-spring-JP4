@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2;
+package lv.lu.training.lesson2.lesson2;
 
 //IESK
 //Lietot koda formatēšanu: Ctrl+Alt+L
