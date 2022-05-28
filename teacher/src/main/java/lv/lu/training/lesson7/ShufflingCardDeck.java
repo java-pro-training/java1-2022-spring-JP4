@@ -52,6 +52,7 @@ public class ShufflingCardDeck {
         for (int i = 0; i < deck.length; i++) {
             if (isNextSuite(i)) {
                 System.out.println();
+                System.out.println(" " + deck[i] + " ");
             } else {
                 System.out.print(" " + deck[i] + " ");
             }
