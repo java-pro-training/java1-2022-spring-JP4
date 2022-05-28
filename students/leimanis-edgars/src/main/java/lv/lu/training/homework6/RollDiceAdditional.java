@@ -25,7 +25,7 @@ public class RollDiceAdditional {
                 System.out.println("Diemzel ar " + sum + " Jus zaudejat :(");
             }
 
-
+//
         }
     }
 }
