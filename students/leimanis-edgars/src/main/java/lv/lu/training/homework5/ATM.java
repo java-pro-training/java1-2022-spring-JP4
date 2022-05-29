@@ -22,15 +22,21 @@ public class ATM {
 
     private static void userChoiceSelect(Scanner scanner) {
         System.out.println("What would you like to do?");
-        System.out.println("Options: 1-withDraw; 2- topUp");
+        System.out.println("Options: 1-checkBalance; 2-withDraw; 3- topUp");
         String enteredOption = scanner.nextLine();
         switch (enteredOption) {
+
             case "1":
-                System.out.println("You will withdraw funds");
+                System.out.println("Check Balance");
                 break;
             case "2":
+                System.out.println("You will withdraw funds");
+                break;
+            case "3":
                 System.out.println("You will add funds");
                 break;
-        }
+//
+
+            }
     }
 }
