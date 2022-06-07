@@ -17,11 +17,14 @@ public class WordCounter {
         }
 
         for (String word : wordCounts.keySet()) {
+            System.out.println("=====unsorted=======");
             System.out.println(word + " = " + wordCounts.get(word));
         }
 
+
         input.close();
     }
+
 
     public static <wordCounts> Map<String, Integer> addWord(String word, Map<String, Integer> wordMap) {
 
@@ -37,6 +40,8 @@ public class WordCounter {
         return wordCounts;
     }
 }
+
+
 
 
 
