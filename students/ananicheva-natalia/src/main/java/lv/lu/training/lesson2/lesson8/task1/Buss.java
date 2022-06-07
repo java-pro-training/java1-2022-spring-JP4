@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2.lesson8;
+package lv.lu.training.lesson2.lesson8.task1;
 
 public class Buss extends Car implements Passenger {
     private final int passengerSeatCount;

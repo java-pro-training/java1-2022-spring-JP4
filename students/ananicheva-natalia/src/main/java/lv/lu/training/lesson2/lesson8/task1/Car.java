@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2.lesson8;
+package lv.lu.training.lesson2.lesson8.task1;
 
 import java.util.Objects;
 
