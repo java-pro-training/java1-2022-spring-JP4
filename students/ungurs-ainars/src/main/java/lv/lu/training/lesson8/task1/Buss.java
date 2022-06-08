@@ -1,4 +1,4 @@
-package lv.lu.training.lesson2.lesson8;
+package lv.lu.training.lesson8.task1;
 
 public class Buss extends Car implements Passenger {
     private final int passengerSeatCount;
@@ -7,21 +7,23 @@ public class Buss extends Car implements Passenger {
         super(color, year, manufacturer);
         this.passengerSeatCount = passengerSeatCount;
     }
-    @Override
-    public int passengerSeatCount(){
-        return this.passengerSeatCount;
 
+    @Override
+    public int passengerSeatCount() {
+        return this.passengerSeatCount;
     }
+
     @Override
     public String toString() {
         return "Buss{" +
                 "color='" + getColor() + '\'' +
-                ", year='" + getYear() + '\'' +
+                ", year=" + getYear() +
                 ", manufacturer='" + getManufacturer() + '\'' +
-                ", passengerSeatCount=" + passengerSeatCount +
-                "} ";
+                "passengerSeatCount=" + passengerSeatCount +
+                '}';
+    }
 
-    }@Override
+    @Override
     public boolean equals(Object that) {
         if (this == that) return true;
         if (that == null || getClass() != that.getClass()) return false;
@@ -30,5 +32,6 @@ public class Buss extends Car implements Passenger {
                 && getColor().equals(buss.getColor())
                 && getYear() == buss.getYear()
                 && getManufacturer().equals(buss.getManufacturer());
+    }
 
-    }}
+}
