@@ -8,7 +8,7 @@ public class Palindrome {
       String input = text.toLowerCase();
       char[] original = input.toCharArray();
       char[] reverse = new char[text.length()];
-      for (int i = text.length() - 1, j =0; i >= 0; j++){
+      for (int i = text.length() - 1, j =0; i >= 0; j++, i--){
           reverse[j] = original[i];
       }
       return Arrays.equals(reverse, original);
