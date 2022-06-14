@@ -1,6 +1,6 @@
 package lv.lu.training.lesson10;
 
-import org.jetbrains.annotations.NotNull;
+//import org.jetbrains.annotations.NotNull;
 
 public class UserValidator {
     private static final int MIN_TEXT_LENGTH = 3;
@@ -8,7 +8,7 @@ public class UserValidator {
     private static final int MIN_AGE = 8;
     private static final int MAX_AGE = 120;
 
-    public void validate(@NotNull User user) {
+    public void validate( User user) {
         if(hasInvalidLength(user.getName()) || hasInvalidLength(user.getSurname())) {
             throw new ValidationException("Name and surname has to be 3 to 15 characters long");
             } else if (hasInvalidAge(user.getAge())) {

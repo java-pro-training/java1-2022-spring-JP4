@@ -1,5 +1,5 @@
 package lv.lu.training.lesson7.HW7;
-
+//IESK
 public class ArraysUtilsTest {
     public static void main(String[] args) {
         int[] result = ArrayUtils.reverse(new int[]{1,2,3});

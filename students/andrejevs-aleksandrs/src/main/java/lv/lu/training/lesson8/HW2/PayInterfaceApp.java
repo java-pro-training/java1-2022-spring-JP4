@@ -1,5 +1,5 @@
 package lv.lu.training.lesson8.HW2;
-
+//IESK
 public class PayInterfaceApp {
     public static void main(String[] args) {
         Payable[] payableObjects = new Payable[5];

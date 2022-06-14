@@ -1,7 +1,7 @@
 package lv.lu.training.homework6;
 
 import java.util.Scanner;
-
+//IESK
 public class GetUserInput {
 
     public static void main(String[] args) {

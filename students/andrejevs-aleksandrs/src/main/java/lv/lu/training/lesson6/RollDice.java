@@ -1,14 +1,15 @@
 package lv.lu.training.lesson6;
 
 import java.util.Random;
-
+//LABOT
+//rollDice metode izmantota vietām nekorekti
 public class RollDice {
 
     public static void main(String[] args) {
         int sumOfWins = 0;
-        rollDice();
+        rollDice(); //šeit jūs varat dabūt vērtību no metodes un izmantot tālāk
         while (rollDice() != 12) {
-            if ((rollDice() == 7) || (rollDice() == 11)) {
+            if ((rollDice() == 7) || (rollDice() == 11)) { //jūs pārsetojat result vērtību katru reizi, kad izsaucat rolldice
                 sumOfWins++;
                 System.out.println("Congratulations, you are the winner! You have won a total of " + sumOfWins + " times");
                 rollDice();

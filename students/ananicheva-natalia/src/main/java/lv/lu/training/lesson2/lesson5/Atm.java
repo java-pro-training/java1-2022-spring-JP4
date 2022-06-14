@@ -1,7 +1,7 @@
 package lv.lu.training.lesson2.lesson5;
 
 import java.util.Scanner;
-
+//IESK
 public class Atm {
 
     public static void main(String[] args) {

@@ -3,7 +3,10 @@ package lv.lu.training.lesson8.task1;
 import lv.lu.training.lesson8.Buss;
 
 import java.util.Arrays;
+import java.util.List;
 
+//LABOT
+//kods nedarbojas
 public class CarParking {
     public class CarParking {
         public static void maid(String[] args) {

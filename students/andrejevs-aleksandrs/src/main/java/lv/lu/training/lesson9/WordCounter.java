@@ -1,10 +1,10 @@
 package lv.lu.training.lesson9;
 
-import jdk.internal.jmod.JmodFile;
-
-import javax.swing.text.html.parser.Entity;
+//import jdk.internal.jmod.JmodFile; //importi,kuri netiek izmantoti jādzēš ārā
+//
+//import javax.swing.text.html.parser.Entity;
 import java.util.*;
-
+//IESK
 public class WordCounter {
     public static void main(String[] args) {
         WordCounter runProgram = new WordCounter();
