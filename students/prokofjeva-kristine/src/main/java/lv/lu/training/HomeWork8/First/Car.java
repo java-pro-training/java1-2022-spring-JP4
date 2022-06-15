@@ -1,6 +1,4 @@
-package lv.lu.training.HomeWork8;
-
-import com.sun.org.apache.bcel.internal.generic.LOOKUPSWITCH;
+package lv.lu.training.HomeWork8.First;
 
 public class Car {
 
