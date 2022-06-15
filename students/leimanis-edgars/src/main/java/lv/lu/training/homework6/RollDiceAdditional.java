@@ -1,7 +1,7 @@
 package lv.lu.training.homework6;
 
 import java.util.Random;
-
+//LABOT
 public class RollDiceAdditional {
 
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class RollDiceAdditional {
         int sumOfWins = 0;
         int sumOfLost = 0;
 
-        while (sum != 12) {
+        while (sum != 12) { //izveidojas mūžīgais cikls, jums vajag, pārsetot sum vērtību, ja gadīumā nav 12
             if (sum == 7 || sum == 11) {
                 sumOfWins++;
 

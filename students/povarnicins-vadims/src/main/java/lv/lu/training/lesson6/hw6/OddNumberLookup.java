@@ -1,7 +1,7 @@
 package lv.lu.training.lesson6.hw6;
 
 import java.util.Scanner;
-
+//IESK
 public class OddNumberLookup {
 
 

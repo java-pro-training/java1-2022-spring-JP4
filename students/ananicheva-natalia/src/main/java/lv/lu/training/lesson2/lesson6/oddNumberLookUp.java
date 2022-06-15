@@ -2,7 +2,8 @@ package lv.lu.training.lesson2.lesson6;
 
 
 import java.util.Scanner;
-
+//LABOT
+//Jums skaitļu intervālu jāiznes metodē un jāpadod ir metodē skaitļi. Ideja ir pareiza, bet uzdevuma aprakstā nedaudz savādāk.
 public class oddNumberLookUp {
     public static void main(String[] args) {
         Scanner enterY = new Scanner(System.in);

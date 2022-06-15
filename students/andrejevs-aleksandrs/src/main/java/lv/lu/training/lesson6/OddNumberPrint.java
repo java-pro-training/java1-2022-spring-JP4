@@ -1,7 +1,7 @@
 package lv.lu.training.lesson6;
 
 import java.util.Scanner;
-
+//IESK
 public class OddNumberPrint {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
