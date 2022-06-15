@@ -1,5 +1,6 @@
 package lv.lu.training.lesson8.task2;
-
+//LABOT
+//Kods nedarbojas
 public abstract class Employee implements Payable {
 
     private String firstName;
@@ -29,11 +30,11 @@ public abstract class Employee implements Payable {
     }
 
     public String getSsn() {
-        return Ssn;
+        return SSN;
     }
 
     public void setSsn(String Ssn) {
-        this.Ssn = Ssn;
+        this.SSN = Ssn;
     }
 
     public double getSalary() {

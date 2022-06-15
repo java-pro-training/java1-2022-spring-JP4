@@ -1,5 +1,5 @@
 package lv.lu.training.lesson7;
-
+//IESK
 public class PalindromeTest {
     public static void main(String[] args) {
         boolean result = Palindrome.isPalindrome(new String[]{"r", "a", "c", "e", "c", "a", "r"});

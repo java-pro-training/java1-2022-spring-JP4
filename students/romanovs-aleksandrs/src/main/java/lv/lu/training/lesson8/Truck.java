@@ -1,7 +1,6 @@
-package lv.lu.training.HomeWork8;
+package lv.lu.training.lesson8;
 
 public class Truck extends Car {
-
     private long loadCapacity;
 
     public Truck(String color, int year, String manufacturer, long loadCapacity) {
@@ -12,7 +11,10 @@ public class Truck extends Car {
     @Override
     public String toString() {
         return "Truck{" +
-                "loadCapacity=" + loadCapacity +
+                "color='" + getColor() + '\'' +
+                ", year='" + getYear() + '\'' +
+                ", manufacturer='" + getManufacturer() + '\'' +
+                ", loadCapacity=" + loadCapacity +
                 '}';
     }
 
@@ -23,13 +25,9 @@ public class Truck extends Car {
 
         Truck truck = (Truck) o;
 
-        return loadCapacity == truck.loadCapacity;
-    }
-
-    @Override
-    public int hashCode() {
-        int result = super.hashCode();
-        result = 31 * result + (int) (loadCapacity ^ (loadCapacity >>> 32));
-        return result;
+        return loadCapacity == truck.loadCapacity
+                && getColor().equals(truck.getColor())
+                && getYear() == truck.getYear()
+                && getManufacturer().equals(truck.getManufacturer());
     }
 }

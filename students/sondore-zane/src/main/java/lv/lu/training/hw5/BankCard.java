@@ -1,7 +1,8 @@
 package lv.lu.training.hw5;
 
 import java.time.LocalDate;
-
+//LABOT
+//nav pabeigts MD
 public class BankCard {
     private String bankName;
     private String origin;

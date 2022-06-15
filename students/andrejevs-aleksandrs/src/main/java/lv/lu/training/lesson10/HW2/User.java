@@ -1,4 +1,4 @@
-package lv.lu.training.lesson10;
+package lv.lu.training.lesson10.HW2;
 
 public class User {
     private final String name;
@@ -21,5 +21,12 @@ public class User {
 
     public int getAge() {
         return age;
+    }
+
+    @Override
+    public String toString() {
+        return name + " " +
+                surname + " " +
+                age;
     }
 }

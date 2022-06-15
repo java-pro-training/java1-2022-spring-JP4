@@ -1,20 +1,18 @@
-package lv.lu.training.HomeWork8;
+package lv.lu.training.lesson8;
 
-import com.sun.org.apache.bcel.internal.generic.LOOKUPSWITCH;
+import java.util.Objects;
 
 public class Car {
-
     private final String color;
     private final int year;
     private final String manufacturer;
+
 
     public Car(String color, int year, String manufacturer) {
         this.color = color;
         this.year = year;
         this.manufacturer = manufacturer;
-
     }
-
 
     public String getColor() {
         return color;
@@ -44,16 +42,9 @@ public class Car {
 
         Car car = (Car) o;
 
-        if (year != car.year) return false;
-        if (!color.equals(car.color)) return false;
-        return manufacturer.equals(car.manufacturer);
+        return Objects.equals(color, car.color) &&
+                Objects.equals(year, car.year) &&
+                Objects.equals(manufacturer, car.manufacturer);
     }
 
-    @Override
-    public int hashCode() {
-        int result = color.hashCode();
-        result = 31 * result + year;
-        result = 31 * result + manufacturer.hashCode();
-        return result;
-    }
 }
