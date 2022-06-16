@@ -3,7 +3,7 @@ package lv.lu.training.lesson6;
 import java.util.Scanner;
 
 import static lv.lu.training.lesson6.OddNumberLookup.printOddWithin;
-
+//IESK
 public class OddNumberChecker {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

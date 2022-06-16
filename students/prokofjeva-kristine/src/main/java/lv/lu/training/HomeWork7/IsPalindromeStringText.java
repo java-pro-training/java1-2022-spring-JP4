@@ -1,7 +1,7 @@
 package lv.lu.training.HomeWork7;
 
 import java.util.Scanner;
-
+//IESK
 public class IsPalindromeStringText {
 
     public static void main(String[] args) {

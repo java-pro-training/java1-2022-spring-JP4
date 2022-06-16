@@ -1,8 +1,7 @@
 package lv.lu.training.lesson7;
 
-import java.util.Arrays;
 import java.util.Scanner;
-
+//IESK
 public class PalindromeTest {
     public static void main(String[] args) {
         System.out.println("Please enter a word to check if it is a palindrome");

@@ -1,7 +1,7 @@
 package lv.lu.training.lesson10.HW2;
 
 import java.util.Scanner;
-
+//IESK
 public class UserCreator {
     public static void main(String[] args) {
         System.out.println("Please enter your name:");

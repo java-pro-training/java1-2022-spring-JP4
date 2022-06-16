@@ -1,7 +1,7 @@
 package lv.lu.training.HMW6;
 
 import java.util.Random;
-
+//LABOT
 public class RollDice2 {
 
 
@@ -10,8 +10,8 @@ public class RollDice2 {
         rollDice();
         int result = rollDice();
         int sumOfWin = 0;
-        while (rollDice() != 12) ; {
-            if (result == 7 || result == 11) {
+        while (rollDice() != 12) ; {  //cikls apstāja pie semikola, kā arī jūs neizmantojat result vērtību un vēlāk arī neuzliekat jaunu result, ja gadījumā jums nav 12
+            if (result == 7 || result == 11) { //jums nav iel
                 sumOfWin++;
                 System.out.println("Result: " + result + "! Winner! You won: " + sumOfWin);
                 rollDice();

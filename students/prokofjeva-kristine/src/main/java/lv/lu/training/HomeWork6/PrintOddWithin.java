@@ -1,7 +1,7 @@
 package lv.lu.training.HomeWork6;
 
 import java.util.Scanner;
-
+//IESK
 public class PrintOddWithin {
     public static void main(String[] args) {
 
