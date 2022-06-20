@@ -1,4 +1,6 @@
 package lv.lu.training.lesson11.transaction;
 
-public class TransactionStatus {
+public enum TransactionStatus {
+
+    SUCCESS, PENDING, FAILURE
 }

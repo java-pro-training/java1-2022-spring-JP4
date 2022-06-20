@@ -13,5 +13,30 @@ public class Transaction {
     private TransactionStatus status;
     private String failureMessage;
 
+    public String getFromAccount() {
+        return fromAccount;
+    }
 
+    public String getToAccount() {
+        return toAccount;
+    }
+
+    public BigDecimal getAmmount() {
+        return ammount;
+    }
+
+    public String getFailureMessage() {
+        return failureMessage;
+    }
+
+    public Transaction success(){
+        this.status = TransactionStatus.SUCCESS;
+        return this;
+    }
+    public Transaction fail(String message){
+        this.status = TransactionStatus.FAILURE;
+        this.failureMessage = message;
+        return this;
+        }
+    }
 }
