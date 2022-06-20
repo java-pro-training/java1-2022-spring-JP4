@@ -32,6 +32,7 @@ public class Transaction {
     public Transaction success(){
         this.status = TransactionStatus.SUCCESS;
         return this;
+
     }
     public Transaction fail(String message){
         this.status = TransactionStatus.FAILURE;
