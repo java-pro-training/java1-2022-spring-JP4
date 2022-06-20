@@ -3,7 +3,7 @@ package lv.lu.training.lesson9;
 import java.util.*;
 
 
-public class WordCounterSorted {
+class WordCounterSorted {
         static Map<String, Integer> wordCounts = new HashMap<>();
 
         public static void main(String[] args) {
