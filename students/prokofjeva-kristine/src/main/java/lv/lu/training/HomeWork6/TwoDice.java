@@ -1,7 +1,8 @@
 package lv.lu.training.HomeWork6;
 
 import java.util.Random;
-
+//LABOT
+//jūs izmantojat rollDice vairākas reizes, bet būtu jaizmanto, tikai lai ielikt vērtību result daļā un tad cikla beigās, lai ieliktu pa jaunas vērtību
 public class TwoDice {
 
     public static void main(String[] args) {

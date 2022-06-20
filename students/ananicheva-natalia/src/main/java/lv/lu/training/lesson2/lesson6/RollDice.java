@@ -1,7 +1,8 @@
 package lv.lu.training.lesson2.lesson6;
 
 import java.util.Random;
-
+//LABOT
+//result netiek izmainīts ciklā, rodas mūžīgais cikls
 public class RollDice {
     public static void main(String[] args) {
         Random random = new Random();
@@ -11,7 +12,7 @@ public class RollDice {
         System.out.println(result);
         int sumOfWins=0;
         int sumOfLost=0;
-        while (result!=12){
+        while (result!=12){ //mūžīgais cikls, vajag piešķirt cikla ķermenī vēlreiz vērtības, ja gadījumā nebija 12 jau sākumā.
             if(result==7|| result==11){
                 sumOfWins++;
                 System.out.println("You win game "+sumOfWins+" times");

@@ -1,5 +1,5 @@
 package lv.lu.training.lesson7.hw1;
-
+//IESK
 public class ArrayUtilsTest {
 
     public static void main(String[] args) {

@@ -1,7 +1,7 @@
 package lv.lu.training.HomeWork7;
 
 import java.util.Arrays;
-
+//IESK
 public class ArrayUtilsTest {
     public static void main(String[] args) {
 
