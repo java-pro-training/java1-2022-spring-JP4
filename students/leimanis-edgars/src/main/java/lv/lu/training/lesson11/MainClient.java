@@ -8,6 +8,7 @@ public class MainClient {
     public static void main(String[] args) {
         MainClient client = new MainClient();
         client.run();
+    }
         private void run () {
             PaymentSystem paymentSystem = new PaymentSystem(new HashMap<>(), new ArrayList<>());
 
