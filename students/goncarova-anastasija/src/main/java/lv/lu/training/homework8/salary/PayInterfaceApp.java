@@ -1,5 +1,5 @@
 package lv.lu.training.homework8.salary;
-
+//IESK
 public class PayInterfaceApp {
     public static void main(String[] args) {
 

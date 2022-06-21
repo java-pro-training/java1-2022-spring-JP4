@@ -1,5 +1,5 @@
 package lv.lu.training.lesson2.lesson7;
-
+//IESK
 public class ArrayUtils {
     public static int[] reverse(int[] array) {
         int[] result = new int[array.length];

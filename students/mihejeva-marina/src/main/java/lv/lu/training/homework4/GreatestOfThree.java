@@ -12,9 +12,9 @@ public class GreatestOfThree {
         int secondNumber = scanner.nextInt();
         int thirdNumber = scanner.nextInt();
 
-        if ((firstNumber > secondNumber) && (firstNumber > thirdNumber)) {
+        if ((firstNumber >= secondNumber) && (firstNumber >= thirdNumber)) {
             System.out.println("The biggest is firstNumber (" + firstNumber + ")");
-        } else if ((secondNumber > firstNumber) && (secondNumber > thirdNumber)) {
+        } else if ((secondNumber >= firstNumber) && (secondNumber >= thirdNumber)) {
             System.out.println("The biggest is secondNumber (" + secondNumber + ")");
         } else {
             System.out.println("The biggest is thirdNumber (" + thirdNumber + ")");
