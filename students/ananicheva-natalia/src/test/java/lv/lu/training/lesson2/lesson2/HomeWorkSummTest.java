@@ -15,7 +15,7 @@ class HomeWorkSummTest {
     }
 @Test
     public void shouldReturnTotalOfTwoNumbers(){
-    Class<? extends HomeWorkSumm> result=victim.getClass();
+        Class<? extends HomeWorkSumm> result=victim.getClass();
     Assert.assertEquals(80,result);
 
 }
