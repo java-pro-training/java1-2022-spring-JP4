@@ -1,11 +1,10 @@
-package lv.lu.training.lesson11.account;
+package lv.lu.training.hw11.account;
 
-import lv.lu.training.lesson11.transaction.Transaction;
+import lv.lu.training.hw11.transaction.Transaction;
 
 import java.math.BigDecimal;
 
 public class Account {
-
     private final String number;
     private AccountStatus status;
     private BigDecimal balance;
@@ -24,31 +23,41 @@ public class Account {
         return status;
     }
 
+    public void setStatus(AccountStatus status) {
+        this.status = status;
+    }
+
     public BigDecimal getBalance() {
         return balance;
+    }
+
+    public void setBalance(BigDecimal balance) {
+        this.balance = balance;
     }
 
     public Transaction topUp(Account fromAccount, double amount) {
         final BigDecimal amountBigDecimal = BigDecimal.valueOf(amount);
         final Transaction transaction = new Transaction(fromAccount.getNumber(), getNumber(), amountBigDecimal);
-        try{
-            fromAccount.decreaseBalanceBy((amountBigDecimal));
+        try {
+            fromAccount.decreaseBalanceBy(amountBigDecimal);
             this.balance = this.balance.add(amountBigDecimal);
-        }catch(IllegalArgumentException ex){
+        }catch (IllegalAccessException ex){
             return transaction.fail(ex.getMessage());
         }
         return transaction.success();
     }
 
     private void decreaseBalanceBy(BigDecimal amount) {
-        BigDecimal decreasedBalance = this.balance.subtract(amount);
-        validateAmount(decreasedBalance);
-        this.balance = decreasedBalance;
+        BigDecimal decreaseBalance = this.balance.subtract(amount);
+        validateAmount(decreaseBalance);
+        this.balance = decreaseBalance;
+
     }
 
     private void validateAmount(BigDecimal amount) {
         if (BigDecimal.ZERO.compareTo(amount) > 0) {
-            throw new IllegalArgumentException("Insufficient funds");
+            throw new IllegalAccessException("Insuficient funds");
+
         }
     }
 }
