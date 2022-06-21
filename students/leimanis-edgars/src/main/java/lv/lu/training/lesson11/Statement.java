@@ -16,49 +16,47 @@ public class Statement {
     private final String transactionDateTime;
     private final String errorMessage;
 
-    public Statement(String fromAccountNumber, String toAccountNumber, String amount, String transactionStatus, String transactionDateTime, String errorMessage) {
-        this.fromAccountNumber = fromAccountNumber;
-        this.toAccountNumber = toAccountNumber;
-        this.amount = amount;
-        this.transactionStatus = transactionStatus;
-        this.transactionDateTime = transactionDateTime;
-        this.errorMessage = errorMessage;
+    public Statement(Transaction transaction, String statementAccountNumber) {
+        this.fromAccountNumber = transaction.getFromAccountNumber();
+        this.toAccountNumber = transaction.getToAccountNumber();
+        amount = parseAmount(transaction, statementAccountNumber);
+        this.transactionStatus = transaction.getStatus().toString().toLowerCase();
+        this.transactionDateTime = transaction.getCreatedAt().format(DATE_TIME_FORMAT);
+        this.errorMessage = transaction.getFailureMessage();
     }
 
     private String parseAmount(Transaction transaction, String statementAccountNumber) {
         final String transferAmount = transaction.getAmount().setScale(2, RoundingMode.HALF_UP).toPlainString();
         return getAmountPrefix(transaction, statementAccountNumber) + transferAmount;
-        private String getAmountPrefix (Transaction transaction, String statementAccountNumber){
-            return statementAccountNumber.equals(transaction.getFromAccountNumber())
-                    ? "-"
-                    : "";
         }
-        public String getFromAccountNumber () {
-            return fromAccountNumber;
-        }
+    private String getAmountPrefix(Transaction transaction, String statementAccountNumber) {
+        return statementAccountNumber.equals(transaction.getFromAccountNumber())
+                ? "-"
+                : "";
+    }
+    public String getFromAccountNumber() {
+        return fromAccountNumber;
+    }
 
-        public String getToAccountNumber () {
-            return toAccountNumber;
-        }
+    public String getToAccountNumber() {
+        return toAccountNumber;
+    }
 
-        public String getAmount () {
-            return amount;
-        }
+    public String getAmount() {
+        return amount;
+    }
 
-        public String getTransactionStatus () {
-            return transactionStatus;
-        }
+    public String getTransactionStatus() {
+        return transactionStatus;
     }
 
     @Override
     public String toString() {
-        return "Statement{" +
-                "fromAccountNumber='" + fromAccountNumber + '\'' +
-                ", toAccountNumber='" + toAccountNumber + '\'' +
-                ", amount='" + amount + '\'' +
-                ", transactionStatus='" + transactionStatus + '\'' +
-                ", transactionDateTime='" + transactionDateTime + '\'' +
-                ", errorMessage='" + errorMessage + '\'' +
-                '}';
+        return fromAccountNumber + "    "
+                + toAccountNumber + "   "
+                + amount + "    "
+                + transactionDateTime + "   "
+                + transactionStatus + "     "
+                + (errorMessage != null ? errorMessage : "");
     }
 }

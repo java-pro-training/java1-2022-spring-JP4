@@ -20,34 +20,41 @@ public class Transaction {
         this.status = TransactionStatus.PENDING;
     }
 
-    public String getFromAccount() {
+    public String getFromAccountNumber() {
         return fromAccount;
     }
 
-    public String getToAccount() {
+    public String getToAccountNumber() {
         return toAccount;
+
     }
 
-    public BigDecimal getAmmount() {
+    public BigDecimal getAmount() {
         return ammount;
+
     }
 
     public TransactionStatus getStatus() {
         return status;
     }
 
-    public String getFailureMessage() {
-        return failureMessage;
-    }
-
-    public Transaction success(){
+    public Transaction success() {
         this.status = TransactionStatus.SUCCESS;
         return this;
     }
 
-    public Transaction fail(String message){
+    public Transaction fail(String message) {
         this.status = TransactionStatus.FAILURE;
         this.failureMessage = message;
         return this;
     }
+
+    public LocalDateTime getCreatedAt() {
+        return createdAt;
+    }
+
+    public String getFailureMessage() {
+        return failureMessage;
+    }
 }
+
