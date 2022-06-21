@@ -24,16 +24,8 @@ public class Account {
         return status;
     }
 
-    public void setStatus(AccountStatus status) {
-        this.status = status;
-    }
-
     public BigDecimal getBalance() {
         return balance;
-    }
-
-    public void setBalance(BigDecimal balance) {
-        this.balance = balance;
     }
 
     public Transaction topUp(Account fromAccount, double amount) {
