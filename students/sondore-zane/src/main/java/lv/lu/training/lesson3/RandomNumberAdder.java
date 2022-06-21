@@ -1,20 +1,22 @@
 package lv.lu.training.lesson3;
 
 import java.util.Random;
+
 //LABOT
 public class RandomNumberAdder {
     public static void main(String[] args) {
         Random randomNumberGenerator = new Random();
-        int valueOne = 9; //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
-        int valueTwo = 4; //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
-        int valueThree = 8; //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
+        int numberOne = randomNumberGenerator.nextInt(0, 100); //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
+        int numberTwo = randomNumberGenerator.nextInt(0, 100); //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
+        int numberThree = randomNumberGenerator.nextInt(0, 100); //jāģenerē random cipari no Random objekta ar metodes nextInt palīdzību, jūsu gadījumā tas būs randomNumberGenerator
 
         //trūkst rezultāta izvade
 
-    }
+        int sum = numberOne + numberTwo + numberThree;
 
-    public static int sumValues(int valueOne, int valueTwo){
-        int result = valueOne + valueTwo;
-        return result;
+        System.out.println(numberOne);
+        System.out.println(numberTwo);
+        System.out.println(numberThree);
+
     }
 }
