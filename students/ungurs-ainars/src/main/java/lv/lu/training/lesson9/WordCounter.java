@@ -1,14 +1,11 @@
 package lv.lu.training.lesson9;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.TreeMap;
+import java.util.*;
 
 public class WordCounter {
     public static void main(String[] args) {
-    WordCounter counter = new WordCounter();
-    counter.run();
+        WordCounter counter = new WordCounter();
+        counter.run();
 
     }
 
@@ -40,7 +37,6 @@ public class WordCounter {
         } else {
             wordCounts.put(word, integer + 1);
         }
-
-
     }
+
 }
