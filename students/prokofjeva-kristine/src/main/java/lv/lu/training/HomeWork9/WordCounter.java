@@ -1,7 +1,7 @@
 package lv.lu.training.HomeWork9;
 
 import java.util.*;
-
+//IESK
 public class WordCounter {
 
 

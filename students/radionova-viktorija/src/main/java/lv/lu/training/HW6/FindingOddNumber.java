@@ -1,5 +1,5 @@
 package lv.lu.training.HW6;
-
+//IESK
 public class FindingOddNumber {
 
     public int from;

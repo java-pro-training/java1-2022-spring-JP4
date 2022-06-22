@@ -5,7 +5,6 @@ import lv.lu.training.lesson2.lesson11.statement.Statement;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
 public class MainClient {
     public static void main(String[] args) {
         MainClient client = new MainClient();

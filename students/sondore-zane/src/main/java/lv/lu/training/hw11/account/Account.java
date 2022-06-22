@@ -38,23 +38,23 @@ public class Account {
     public Transaction topUp(Account fromAccount, double amount) {
         final BigDecimal amountBigDecimal = BigDecimal.valueOf(amount);
         final Transaction transaction = new Transaction(fromAccount.getNumber(), getNumber(), amountBigDecimal);
-        try {
-            fromAccount.decreaseBalanceBy(amountBigDecimal);
-            this.balance = this.balance.add(amountBigDecimal);
-        }catch (IllegalAccessException ex){
-            return transaction.fail(ex.getMessage());
-        }
+//        try {
+//            fromAccount.decreaseBalanceBy(amountBigDecimal);
+//            this.balance = this.balance.add(amountBigDecimal);
+//        } catch (IllegalAccessException ex){
+//            return transaction.fail(ex.getMessage());
+//        }
         return transaction.success();
     }
 
     private void decreaseBalanceBy(BigDecimal amount) {
         BigDecimal decreaseBalance = this.balance.subtract(amount);
-        validateAmount(decreaseBalance);
+//        validateAmount(decreaseBalance);
         this.balance = decreaseBalance;
 
     }
 
-    private void validateAmount(BigDecimal amount) {
+    private void validateAmount(BigDecimal amount) throws IllegalAccessException {
         if (BigDecimal.ZERO.compareTo(amount) > 0) {
             throw new IllegalAccessException("Insuficient funds");
 

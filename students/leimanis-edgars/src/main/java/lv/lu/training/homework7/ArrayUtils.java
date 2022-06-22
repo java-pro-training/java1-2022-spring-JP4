@@ -2,8 +2,7 @@ package lv.lu.training.homework7;
 
 import java.util.Arrays;
 
-//LABOT
-// tukšs fails
+//IESK
 public class ArrayUtils {
 
     private int intA, intB;

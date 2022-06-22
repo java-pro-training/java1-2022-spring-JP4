@@ -1,5 +1,5 @@
 package lv.lu.training.homework7;
-
+//IEKS
 public class Palindroms {
 
     public static boolean isPalindrome(String text) {

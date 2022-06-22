@@ -1,7 +1,7 @@
 package lv.lu.training;
 
 import lv.lu.training.homework7.ArrayUtils;
-
+//IESK
 public class ArrayUtilsTest {
     public static void main(String[] args) {
         int[] result = ArrayUtils.reverse(new int[]{1, 2, 3});

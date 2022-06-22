@@ -1,7 +1,7 @@
 package lv.lu.training.HW6;
 
 import java.util.Scanner;
-
+//IESK
 public class BiggestOfThree {
 
     public static void main(String[] args) {

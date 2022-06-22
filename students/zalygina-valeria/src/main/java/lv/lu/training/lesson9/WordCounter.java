@@ -3,7 +3,8 @@ package lv.lu.training.lesson9;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+//LABOT
+//addword metode nekorekta
 public class WordCounter {
     static Map<String, Integer> wordCounts = new HashMap<>();
 

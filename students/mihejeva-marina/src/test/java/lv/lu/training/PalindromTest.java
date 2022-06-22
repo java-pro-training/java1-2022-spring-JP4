@@ -1,7 +1,7 @@
 package lv.lu.training;
 
 import lv.lu.training.homework7.Palindroms;
-
+//IESK
 public class PalindromTest {
     public static void main(String[] args) {
         boolean result = Palindroms.isPalindrome("Abba");

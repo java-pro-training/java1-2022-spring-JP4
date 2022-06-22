@@ -3,7 +3,7 @@ package lv.lu.training.homework9;
 
 import java.util.*;
 
-
+//IESK
 public class WordCounter {
 
     public static void main(String[] args) {

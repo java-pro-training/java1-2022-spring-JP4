@@ -1,7 +1,7 @@
 package lv.lu.training.hw5;
 
 import java.util.Scanner;
-
+//IESK
 public class ATM {
 
     Scanner scanner = new Scanner(System.in);
@@ -17,7 +17,6 @@ public class ATM {
         //   } else {
         System.out.println("Wrong PIN code");
     }
-}
 
     private static void userChoiceSelect() {
         System.out.println("What do you like to do?");
@@ -34,4 +33,6 @@ public class ATM {
 
         }
     }
+
 }
+
