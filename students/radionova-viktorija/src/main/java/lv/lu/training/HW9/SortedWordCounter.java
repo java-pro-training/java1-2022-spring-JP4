@@ -1,5 +1,7 @@
-import java.util.*;
+package lv.lu.training.HW9;
 
+import java.util.*;
+//ISK
 public class SortedWordCounter {
 
     public static void main(String[] args) {

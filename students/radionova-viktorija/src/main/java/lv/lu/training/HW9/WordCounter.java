@@ -3,7 +3,7 @@ package lv.lu.training.HW9;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
-
+//IESK
 public class WordCounter {
 
     public static void main(String[] args) {
