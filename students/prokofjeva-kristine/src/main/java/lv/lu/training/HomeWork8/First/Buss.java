@@ -1,6 +1,6 @@
 package lv.lu.training.HomeWork8.First;
 
-public class Buss extends Car implements Passenger {
+public class Buss extends Car  {
     private final int passengerSeatCount;
 
 
@@ -11,10 +11,6 @@ public class Buss extends Car implements Passenger {
 
     }
 
-    @Override
-    public int passengerSeatCount() {
-        return this.passengerSeatCount;
-    }
 
     @Override
     public String toString() {

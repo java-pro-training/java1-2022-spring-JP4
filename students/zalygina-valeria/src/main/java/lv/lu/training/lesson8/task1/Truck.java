@@ -1,6 +1,5 @@
 package lv.lu.training.lesson8.task1;
 
-public class Truck {
     public class Truck extends Car {
 
         private long loadCapacity;
@@ -31,4 +30,4 @@ public class Truck {
                     &&getManufacturer().equals(truck.getManufacturer());
         }
     }
-}
+
