@@ -9,20 +9,20 @@ class OddNumberLookupTest {
     private OddNumberLookup victim;
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() {
         victim = new OddNumberLookup();
     }
 
     @Test
-    void shouldBeTrueForOddNumber(){
+    void shouldBeTrueForOddNumber() {
         boolean result = victim.isOdd(3);
-        assertEquals(true, result);
+        assertTrue(result);
     }
 
     @Test
-    void shouldBeFalseForEvenNumber(){
+    void shouldBeFalseForEvenNumber() {
         boolean result = victim.isOdd(4);
-        assertEquals(false, result);
+        assertFalse(result);
     }
 
 }
