@@ -1,16 +1,20 @@
-package lv.lu.training.lesson10;
+package lv.lu.training.HW10;
 
 public class UserValidator {
+
+
     private static final int MIN_TEXT_LENGTH = 3;
     private static final int MAX_TEXT_LENGTH = 15;
     private static final int MIN_AGE = 0;
-    private static final int MAX_AGE = 120;
+    private static final int MAX_AGE = 100;
 
     public void validate(User user) {
+
         if (hasInvalidLength(user.getName()) || hasInvalidLength(user.getSurname())) {
-            throw new ValidationException("Name and Surname have to be 3 to 15 characters");
+            throw new ValidationException("Name and surname has to be 3 to 15 characters long");
         } else if (hasInvalidAge(user.getAge())) {
-            throw new ValidationException("User has invalid age");
+            throw new ValidationException("Use has invalid age");
+
         }
     }
 

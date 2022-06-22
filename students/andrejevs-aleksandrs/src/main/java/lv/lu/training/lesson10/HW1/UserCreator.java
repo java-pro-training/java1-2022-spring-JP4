@@ -1,4 +1,5 @@
-package lv.lu.training.lesson10;
+package lv.lu.training.lesson10.HW1;
+
 //IESK
 public class UserCreator {
     public static void main(String[] args) {
